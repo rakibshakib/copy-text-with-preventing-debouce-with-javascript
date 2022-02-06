@@ -28,5 +28,6 @@ button.addEventListener(
     debounce(function () {
         console.log('Text Coppied!');
         copyToClipBoard(demoText.innerText);
+        button.innerText = "Text Copied!"
     }, 1000)
 );
